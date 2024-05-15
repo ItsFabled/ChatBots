@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/obz3bje.css">
+  <title>Chatbot Q&A Form</title>
+</head>
+
+<body>
+  <div class="maindiv">
+    <img src="images/rmit_logo.png" alt="RMIT University Logo" class="center">
+    <h1>Chatbot Q&A Form</h1>
+
+    <label for="cources">Select Course:</label>
+    <select name="cources" id="cources">
+      <option value="example1">Programming Project 1 (2410)</option>
+      <option value="example2">Cloud Security (2410)</option>
+      <option value="example3">Digital Business Security and Risk Management (2410)</option>
+      <option value="example4">Introduction to Cyber Security (2410)</option>
+    </select>
+
+    <label for="q1" class="question">Question 1</label>
+    <form><input type="text" placeholder="Enter a course question here..." id="q1" name="q1">
+    <button type="button" class="button removeqbutton" onclick="alert('computer says no')">🗑️</button></form>
+    <label for="a1">Answer 1</label>
+    <textarea id="a1" name="a1" rows="4" cols="50" placeholder="Provide an answer for the question above..."></textarea>
+
+    <label for="q2" class="question">Question 2</label>
+    <form><input type="text" placeholder="Enter a course question here..." id="q2" name="q2">
+    <button type="button" class="button removeqbutton" onclick="alert('computer says no')">🗑️</button></form>
+    <label for="a2">Answer 2</label>
+    <textarea id="a2" name="a2" rows="4" cols="50" placeholder="Provide an answer for the question above..."></textarea>
+
+    <label for="q3" class="question">Question 3</label>
+    <form><input type="text" placeholder="Enter a course question here..." id="q3" name="q3">
+    <button type="button" class="button removeqbutton" onclick="alert('computer says no')">🗑️</button></form>
+    <label for="a3">Answer 3</label>
+    <textarea id="a3" name="a3" rows="4" cols="50" placeholder="Provide an answer for the question above..."></textarea>
+
+    <label for="q4" class="question">Question 4</label>
+    <form><input type="text" placeholder="Enter a course question here..." id="q4" name="q4">
+    <button type="button" class="button removeqbutton" onclick="alert('computer says no')">🗑️</button></form>
+    <label for="a4">Answer 4</label>
+    <textarea id="a4" name="a4" rows="4" cols="50" placeholder="Provide an answer for the question above..."></textarea>
+
+    <div class="buttondiv">
+      <button type="button" class="button addqbutton" onclick="alert('computer says no')">Add Question</button>
+      <button type="button" class="button submitbutton" onclick="alert('computer says no')">Submit Form</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
